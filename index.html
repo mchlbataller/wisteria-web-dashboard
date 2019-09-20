@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title> insert your page title </title>
+        <link rel="stylesheet" type="text/css" href="assets/layout/index.css">
+    </head>
+
+    <body>
+
+        <?php
+            session_start();
+
+            if($_SESSION['wrong'] == true)
+            echo <<<END
+            <p> You have entered an invalid username or password.</p>
+            END;
+        ?>
+
+        <form method="POST" action="login.php">
+            <p> Username:</p> 
+            <input type="text" name="username">
+            <p> Password:</p>
+            <input type="password" name="pw">
+            <input type="submit">
+        </form>
+    </body>
+</html>
