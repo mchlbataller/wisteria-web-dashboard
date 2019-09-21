@@ -13,6 +13,7 @@ Download all of these files then copy it on your htdocs folder.
 The SQL Database should be named <b> web </b>
 
 Then it should have a table named <b> users </b>
+
 The users table should have these fields:
 ``` bash
 +-------------+------------------+------+-----+---------+----------------+
