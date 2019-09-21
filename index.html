@@ -1,26 +1,28 @@
 <html>
     <head>
-        <title> Log In </title>
-        <link rel="stylesheet" type="text/css" href="assets/layout/index.css">
+        <title> Sign - Up WWD! </title>
+        <link href="assets/layout/index.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
-
-        <?php
-            session_start();
-
-            if(isset($_SESSION['wrong']))
-            echo <<<END
-            <p> You have entered an invalid username or password.</p>
-            END;
-        ?>
-
-        <form method="POST" action="login.php">
-            <p> Username:</p> 
-            <input type="text" name="username">
-            <p> Password:</p>
-            <input type="password" name="pw">
-            <input type="submit">
-        </form>
+		<div id="logo" style="text-align: center">
+		<img src="assets/layout/logo.png" alt="">
+		<h1>WiSTERIA Web<br>Development Inc.</h1>
+		</div>
+		<div id="form_1">
+			<form method="POST" action="login.php">
+				<fieldset>
+					<legend>Log In</legend>
+					<label> Username:</label> 
+					<input type="email" name="username" placeholder="Enter username.">
+					<hr>
+					<label> Password:</label>
+					<input type="password" name="pw" placeholder="Enter password.">
+					<br>
+					<hr>
+					<button class="button"input type="submit">Submit</button>
+				</fieldset>
+			</form>
+		</div>
     </body>
 </html>
