@@ -9,7 +9,7 @@
         <?php
             session_start();
 
-            if($_SESSION['wrong'] == true)
+            if(isset($_SESSION['wrong']))
             echo <<<END
             <p> You have entered an invalid username or password.</p>
             END;
