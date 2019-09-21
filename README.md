@@ -11,7 +11,9 @@ Download all of these files then copy it on your htdocs folder.
 
 ## Database
 The SQL Database should be named <b> web </b>
+
 Then it should have a table named <b> users </b>
+The users table should have these fields:
 ``` bash
 +-------------+------------------+------+-----+---------+----------------+
 | Field       | Type             | Null | Key | Default | Extra          |
@@ -28,4 +30,5 @@ Then it should have a table named <b> users </b>
 
 ## Contributing
 Everyone in the company are welcome to do pull requests!
+
 Having knowledge about git is extremely encouraged, since you'd do some favors to the CEO.
