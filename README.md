@@ -5,6 +5,7 @@ This GitHub page is exclusively for company members only whose goal is to make a
 
 ## Installation
 Use the [xampp](https://www.apachefriends.org/download.html) to deploy this site.
+
 Download all of these files then copy it on your htdocs folder.
 
 
