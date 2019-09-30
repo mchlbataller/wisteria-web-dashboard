@@ -1,0 +1,90 @@
+Puzzle 113
+Difficulty Level: Easy
+MN CNTAS SGHR LDRRZFD VHKK BNLD 
+SN XNT ZR RNLDSGHMF NE Z 
+RTQOQHRD.
+HINT: C = D
+ANSWER: No doubt this message will come to you as something of a surprise
+
+
+Puzzle 119 
+Difficulty Level: Easy
+L FDQ WHOO BRX DERXW RQH VXFK 
+DJHQW. KLV QDPH LV MDVSHU 
+KDOOLJDQ, DQ DWWRUQHB ZLWK 
+WKH XQLWHG VWDWHV 
+GHSDUWPHQW RI VWDWH.
+HINT: M = J
+ANSWER: I can tell you about one such agent. His name is Jasper Halligan, an attorney with the United States Department of State.
+
+
+Puzzle 125 
+Difficulty Level: Tricky
+LD TYDECFNEPO, T SLGP AWLNPO 
+XJDPWQ FYOPC L QLWDP YLXP LD L 
+DPCGTYR XLTO EZ ESP ZQQTNPCD 
+HTESTY ESP NTCNWP ZQ RPYPCLW 
+NWTYEZY
+HINT: Q = F
+ANSWER: As instructed, I have placed myself under a false name as a serving maid to the officers within the circle of General Clinton
+
+
+Puzzle 135 
+Difficulty Level: Treacherous
+NDJ LXAA LXIW PAA SJT WPHIT WPKT 
+NDJG PVTCIH XC CTL NDGZ RXIN, 
+QTWXCS QGXIXHW AXCTH, IPZT 
+UDGBTG VTCTGPA QTCTSXRI PGCDAS 
+XCID RJHIDSN QN UDGRT, PCS GTIJGC 
+WXB ID BN RPBE.
+HINT: L = W
+ANSWER: You will with all due haste have your agents in New York City, behind British lines, take former General Benedict Arnold into custody by force, and return him to my camp.
+
+
+Puzzle 140 
+Difficulty Level: Treacherous
+AOPZ DPSS HSZV OLSW JVCLY AOL 
+MHJA AOHA CHSSHUKPNOHT YBUZ 
+HSS VM AOPZ MYVT JHUHKH. THRL 
+ZBYL OL AOPURZ PA PZ OPZ PKLH.
+HINT: U = N
+ANSWER: This will also help cover the fact that Vallandigham runs all of this from Canada. Make sure he thinks it is his idea.
+
+
+Puzzle 185 
+Difficulty Level: Easy
+YUOOK OMIOE EKOAA RMUTB UYUOD 
+NTNWE HWVRN WFIAO NAOTO X
+HINT: 2-rail
+ANSWER: You do not know me. I, however, know a fair amount about you.
+
+
+Puzzle 191 
+Difficulty Level: Tricky
+TSLNN NHSEA LACEE OFTIA THFNE 
+HXCLC SSITT I
+HINT: 4-rail
+ANSWER: . . . this asset shall finance the next conflict.
+
+
+Puzzle 198 
+Difficulty Level: Tricky
+AIGWH CEGBD NHSAA THTEI EBAUE 
+EERSX ACMSM AIHPL CNTOO GRAHW 
+RIECO AYRNA
+HINT: 4-rail
+ANSWER: Anarchism is a game at which the police can beat you. George Bernard Shaw
+
+Puzzle 200 
+Difficulty Level: Treacherous
+IEOAR ESAPA TYUSB OHRAO XPLOA 
+TMN   
+HINT: 3-rail
+ANSWER: I appeal to you as a brother Mason.
+
+Puzzle 238 
+Difficulty Level: Easy
+HINT: This is a Caesar Box Cipher.
+MAXEIIM YRTTNPE PEEOEHS LTNOIES AOSUNRA NOITAEG SEVLCDE
+HINT: 7 x 7 grid
+ANSWER: My plans are too extensive to outline in a ciphered message.

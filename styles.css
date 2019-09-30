@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.container
+{
+    margin-top: 20vh;
+
+}
+
+
+.container-fluid
+{
+
+  height:65vh;
+}
+
+#begText
+{
+    position: absolute;
+    width: 933px;
+    height: 259px;
+
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 114px;
+    color:white;
+
+
+}
+
+#newText
+{
+    position: absolute;
+    width: 654px;
+    height: 211px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 72px;
+    color:white;
+
+}
+
+p{
+    position: absolute;
+width: 750px;
+height: 194px;
+margin-top: 200px;
+
+font-family: Lato;
+font-style: italic;
+font-weight: normal;
+font-size: 36px;
+line-height: 300px;
+color: white;
+}
+
+#honor
+{
+    margin: 50px;
+}
+#patience
+{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+#exp
+{
+    margin-top: 150px;
+    margin-left: 40px;
+}
+h4{
+    position: relative;
+width: 357px;
+height: 35px;
+margin-top:30px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+#intro{
+    position: absolute;
+width: 561px;
+height: 124px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 86px;
+
+color: #7A509C;
+}
+
+header{
+position: absolute;
+width: 561px;
+height: 124px;
+margin-top: 5vh;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 86px;
+
+color: #7A509C;
+
+}
+
+.form-group
+{
+    margin-top: 20vh;
+    margin-left:1px;
+
+    position: absolute;
+    width: 534px;
+    height: 61px;
+
+    border-radius: 11px;
+}
+
+.form-control
+{
+    background: #EAEAEA;
+    margin:15px;
+    margin-right:200px;
+}
+
+#btn
+{
+    margin-left: 100px;
+    background: #AE83D9;
+
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 58px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+
+
+}
