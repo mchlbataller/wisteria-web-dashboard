@@ -1,4 +1,4 @@
-html{
+body{
     background: url('../pictures/bg-main-landing.jpg');
     background-size: cover;
 }
@@ -45,9 +45,6 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-
-
 }
 
 .col.padded {
@@ -159,4 +156,25 @@ h4 {
 
 .card-block{
     padding-top: 15px;
+}
+
+.container.main {
+    background: transparent;
+}
+
+.login {
+    background: white;
+    max-width: 500px;
+    margin-left: 30%;
+    margin-top: 20%;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.padded {
+    padding: 50px;
+}
+
+.submit {
+    width:200px;
 }
