@@ -1,27 +1,115 @@
-<html>
-    <head>
-        <title> Sign - Up WWD! </title>
-        <link href="assets/layout/index.css" rel="stylesheet" type="text/css">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<title>Login</title>
+</head>
+<body>
+	<!-- background image -->
+	<nav class="navbar navbar-expand-lg fixed-top">
+		<a href="index.html" class="navbar-brand font-weight-light">WWD Inc.</a>
+		<!-- Links -->
+		<div class="collapse navbar-collapse" id="main-navigation">
+			<ul class="navbar-nav font-weight-bold">
+				<li class="nav-item">
+					<a class="nav-link" href="#head">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About Us</a>
+				</li>
+				<li class="nav-item bg-primary">
+					<a class="nav-link" href="login.html">Login</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-    <body>
-		<div id="logo" style="text-align: center">
-		<img src="assets/layout/logo.png" alt="">
-		<h1>WiSTERIA Web<br>Development Inc.</h1>
+	<div class="container-fluid main">
+		<div class="row header">
+			<div class="col padded header" id="head">
+				<h1> Welcome to Wisteria Web Development Inc.!</h1>
+				<p class="margin-top">We offer great website solutions for great people, great companies, and great organizations. By registering to WWD Inc., you can gain access to our content.</p>
+				<div class="form-inline margin-top">
+					<input type="text" name="email" placeholder="Your Email" class="form-check" id="email">
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modal-section" onclick="changeemail()">Proceed</button>
+					<!-- large modal -->
+					<div class="modal fade modal-section slide-in-fwd-left" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered">
+							<div class="modal-content">
+								<div class="container-fluid text-center">
+									<header>GET STARTED</header>
+									<div class="form-group">
+										<div class=col>
+											<div class="row">
+												<input type="text" class="form-control"  placeholder="First Name" name="firstName" >
+											</div>
+											<div class="row">
+												<input type="text" class="form-control"  placeholder="Middle Name" name="middleName" >
+											</div>
+											<div class="row">
+												<input type="text" class="form-control"  placeholder="Last Name" name="lastName" >
+											</div>
+
+											<div class="row">
+												<input type="text" class="form-control"  placeholder="Nickname" name="userName" >
+											</div>
+											<div class="row">
+												<input type="email" class="form-control" placeholder="Email Address" name="userEmail" id="email-reg">
+											</div>
+											<div class="row">
+												<input type="password" class="form-control" placeholder="Password" name="password" >
+											</div>
+											<div class="row">
+												<input type="submit" class="btn btn-primary submit-reg" id = "btn" value="SUBMIT" name="register-user">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<img src="assets/pictures/wisteria.jpg" class="shadow-lg" height="350px">
+			</div>
 		</div>
-		<div id="form_1">
-			<form method="POST" action="login.php">
-				<fieldset>
-					<legend>Log In</legend>
-					<label> Username:</label> 
-					<input type="email" name="username" placeholder="Enter username.">
-					<br>
-					<label> Password:</label>
-					<input type="password" name="pw" placeholder="Enter password.">
-					<br>
-					<button class="button"input type="submit">Submit</button>
-				</fieldset>
-			</form>
+	</div>
+
+	<div class="container-fluid about parallax">
+		<div class="text-center" id="about">
+			<h2 class="jumbotron-fluid text-center">About Us</h2>
+			<p class="fluid">Wisteria Web Development, Inc. is formed for the sole purpose of fulfilling the requirements for the subject, Computer Engineering Technology 3: Game Development.
+				WWD, Inc. is temporarily owned by Prof. Bob Mathew Sunga, who is the sole provider of licenses.</p>
+			<p>	The company is formerly called "Cipher Optimum, Inc."
+				but since there are name conflicts with other companies, it has been named using its present name.
+				The name "Wisteria" directly came from John Alfred S. Piñero.</p>
+			<p>Wisteria Web Development, Inc. is formed by the agreement of these five(5) people,</p>
+			<ul class="list-unstyled">
+				<li>Marlon Jhon B. Bautista</li>
+				<li>Michael C. Bataller</li>
+				<li>Kervin Zoren S. Bonaobra</li>
+				<li>Dominic Johan Delos Reyes</li>
+				<li>Gemuel Mico Rosatase</li>
+			</ul>
+
 		</div>
-    </body>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<script>
+		function changeemail(){
+			var email1 = document.getElementById("email");
+			var email2 = document.getElementById("email-reg");
+
+			email2.value = email1.value;
+		}
+	</script>
+
+</body>
 </html>

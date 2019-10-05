@@ -1,42 +1,55 @@
-body{
-	background-image:url('./assets/layout/4.png');
-	margin:0px;
-	padding:0px;
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 12px;
-
-}
-#form_1{
-	text-align:center;
-	position:bottom;
-	width:500px;
-	height:300px;
-	margin-left:70vh;
-	font-size:16px;
-	border-radius:30px;
-}
-#logo
-{
-	text-align: center;
-	top-margin-top: 20px;
-	font-family:"Segoe UI";
-	padding:20px;
-}
-.button{
-	margin: 4px 2px;
-	padding:15px 32px;
-	background-color:#C9FFE5;
-	border:3px solid #FFC9E3;
-	border-radius:10px;
+.navbar-collapse{
+	justify-content: flex-end;
 }
 
-fieldset {
-	border: 1px solid #666;
-	float: center;	
-	border-radius: 10px;
+.navbar {
+	background: #2196F3;
+	height: 80px;
 }
 
-legend{
-	text-align:left;
-	border-radius: 67px;
+.navbar-brand {
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 25px;
+}
+
+
+
+body {
+	background-image: url("https://www.tokkoro.com/picsup/5233149-mountain-peak-lake-blue-water-blue-lake-wallpaper-desktop-wallpapers-desktop-background-desktop-backgrounds-wallpapers-amazing-wallpaper-cloud-water-blue-cloudy-nature-view-snow-landscape-expl.jpg");
+	margin-top: 80px;
+	background-size: 1920px 1000px;
+}
+
+.nav-link {
+	color: white;
+	font-size: 15px;
+}
+
+.main {
+	background-color: white;
+	padding: 0px;
+}
+
+.secondary {
+	min-height: 350px;
+}
+
+a.nav-link:hover {
+	background: #414141;
+	color: #00BCD4;
+}
+
+.img-fluid {
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container-fluid.about {
+	background: white;
+	min-height: 50vh;
+	padding-top: 50px;
+
 }
