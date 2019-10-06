@@ -1,4 +1,4 @@
-body{
+html{
     background: url('../pictures/bg-main-landing.jpg');
     background-size: cover;
 }
@@ -45,6 +45,9 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+
+
 }
 
 .col.padded {
