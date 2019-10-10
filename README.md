@@ -32,4 +32,4 @@ The users table should have these fields:
 ## Contributing
 Everyone in the company are welcome to do pull requests!
 
-Having knowledge about git is extremely encouraged, since you'd do some favors to the CEO.
+Having knowledge about git is greatly encouraged, since you'd do some favors to the CEO.
